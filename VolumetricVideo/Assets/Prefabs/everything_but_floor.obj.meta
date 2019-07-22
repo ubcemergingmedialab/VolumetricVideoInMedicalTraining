@@ -1,0 +1,213 @@
+fileFormatVersion: 2
+guid: 3eec985845ec7e243a674f2a21b4bbd2
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: everything_but_floor_pCube1
+    100004: everything_but_floor_pCube12
+    100006: everything_but_floor_pCube15
+    100008: everything_but_floor_pCube16
+    100010: everything_but_floor_pCube2
+    100012: everything_but_floor_pCube20
+    100014: everything_but_floor_pCube21
+    100016: everything_but_floor_pCube22
+    100018: everything_but_floor_pCube23
+    100020: everything_but_floor_pCube24
+    100022: everything_but_floor_pCube25
+    100024: everything_but_floor_pCube27
+    100026: everything_but_floor_pCube29
+    100028: everything_but_floor_pCube30
+    100030: everything_but_floor_pCube31
+    100032: everything_but_floor_pCube33
+    100034: everything_but_floor_pCube34
+    100036: everything_but_floor_pCube35
+    100038: everything_but_floor_pCube6
+    100040: everything_but_floor_pCube7
+    100042: pCube32_everything_but_floor
+    400000: //RootNode
+    400002: everything_but_floor_pCube1
+    400004: everything_but_floor_pCube12
+    400006: everything_but_floor_pCube15
+    400008: everything_but_floor_pCube16
+    400010: everything_but_floor_pCube2
+    400012: everything_but_floor_pCube20
+    400014: everything_but_floor_pCube21
+    400016: everything_but_floor_pCube22
+    400018: everything_but_floor_pCube23
+    400020: everything_but_floor_pCube24
+    400022: everything_but_floor_pCube25
+    400024: everything_but_floor_pCube27
+    400026: everything_but_floor_pCube29
+    400028: everything_but_floor_pCube30
+    400030: everything_but_floor_pCube31
+    400032: everything_but_floor_pCube33
+    400034: everything_but_floor_pCube34
+    400036: everything_but_floor_pCube35
+    400038: everything_but_floor_pCube6
+    400040: everything_but_floor_pCube7
+    400042: pCube32_everything_but_floor
+    2100000: everything_but_floor_pCube1Mat
+    2100002: everything_but_floor_pCube12Mat
+    2100004: everything_but_floor_pCube15Mat
+    2100006: everything_but_floor_pCube16Mat
+    2100008: everything_but_floor_pCube2Mat
+    2100010: everything_but_floor_pCube20Mat
+    2100012: everything_but_floor_pCube21Mat
+    2100014: everything_but_floor_pCube22Mat
+    2100016: everything_but_floor_pCube23Mat
+    2100018: everything_but_floor_pCube24Mat
+    2100020: everything_but_floor_pCube25Mat
+    2100022: everything_but_floor_pCube27Mat
+    2100024: everything_but_floor_pCube29Mat
+    2100026: everything_but_floor_pCube30Mat
+    2100028: everything_but_floor_pCube31Mat
+    2100030: everything_but_floor_pCube33Mat
+    2100032: everything_but_floor_pCube34Mat
+    2100034: everything_but_floor_pCube35Mat
+    2100036: everything_but_floor_pCube6Mat
+    2100038: everything_but_floor_pCube7Mat
+    2100040: pCube32_everything_but_floorMat
+    2300000: everything_but_floor_pCube1
+    2300002: everything_but_floor_pCube12
+    2300004: everything_but_floor_pCube15
+    2300006: everything_but_floor_pCube16
+    2300008: everything_but_floor_pCube2
+    2300010: everything_but_floor_pCube20
+    2300012: everything_but_floor_pCube21
+    2300014: everything_but_floor_pCube22
+    2300016: everything_but_floor_pCube23
+    2300018: everything_but_floor_pCube24
+    2300020: everything_but_floor_pCube25
+    2300022: everything_but_floor_pCube27
+    2300024: everything_but_floor_pCube29
+    2300026: everything_but_floor_pCube30
+    2300028: everything_but_floor_pCube31
+    2300030: everything_but_floor_pCube33
+    2300032: everything_but_floor_pCube34
+    2300034: everything_but_floor_pCube35
+    2300036: everything_but_floor_pCube6
+    2300038: everything_but_floor_pCube7
+    2300040: pCube32_everything_but_floor
+    3300000: everything_but_floor_pCube1
+    3300002: everything_but_floor_pCube12
+    3300004: everything_but_floor_pCube15
+    3300006: everything_but_floor_pCube16
+    3300008: everything_but_floor_pCube2
+    3300010: everything_but_floor_pCube20
+    3300012: everything_but_floor_pCube21
+    3300014: everything_but_floor_pCube22
+    3300016: everything_but_floor_pCube23
+    3300018: everything_but_floor_pCube24
+    3300020: everything_but_floor_pCube25
+    3300022: everything_but_floor_pCube27
+    3300024: everything_but_floor_pCube29
+    3300026: everything_but_floor_pCube30
+    3300028: everything_but_floor_pCube31
+    3300030: everything_but_floor_pCube33
+    3300032: everything_but_floor_pCube34
+    3300034: everything_but_floor_pCube35
+    3300036: everything_but_floor_pCube6
+    3300038: everything_but_floor_pCube7
+    3300040: pCube32_everything_but_floor
+    4300000: everything_but_floor_pCube1
+    4300002: everything_but_floor_pCube12
+    4300004: everything_but_floor_pCube15
+    4300006: everything_but_floor_pCube16
+    4300008: everything_but_floor_pCube2
+    4300010: everything_but_floor_pCube20
+    4300012: everything_but_floor_pCube21
+    4300014: everything_but_floor_pCube22
+    4300016: everything_but_floor_pCube23
+    4300018: everything_but_floor_pCube24
+    4300020: everything_but_floor_pCube25
+    4300022: everything_but_floor_pCube27
+    4300024: everything_but_floor_pCube29
+    4300026: everything_but_floor_pCube30
+    4300028: everything_but_floor_pCube31
+    4300030: everything_but_floor_pCube33
+    4300032: everything_but_floor_pCube34
+    4300034: everything_but_floor_pCube35
+    4300036: everything_but_floor_pCube6
+    4300038: everything_but_floor_pCube7
+    4300040: pCube32_everything_but_floor
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
