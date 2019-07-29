@@ -1,4 +1,4 @@
-# VolumetricMedical
+# Volumetric Video in Medical Training
 
 ## Project Information
 
