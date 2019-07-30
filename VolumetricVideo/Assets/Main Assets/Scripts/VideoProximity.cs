@@ -9,19 +9,20 @@ public class VideoProximity : MonoBehaviour
 {
 
     public GameObject user;
+    public GameObject userCamera;
     public int allowedDistance;
     VideoPlayer vp;
+    bool looking;
 
     // Start is called before the first frame update
     void Start()
     {
         vp = gameObject.GetComponent<VideoPlayer>();
-
         vp.Prepare();
     }
 
     // Update is called once per frame
-    void LateUpdate()
+    void FixedUpdate()
     {
         vp.Play();
         LocationPausePlayVideo(user);
@@ -39,18 +40,31 @@ public class VideoProximity : MonoBehaviour
     {
 
         Vector3 pos = vp.transform.position;
+        RaycastHit hit;
 
-        if (Mathf.Abs(Vector3.Distance(objectOne.transform.position, pos)) <= allowedDistance)
+
+        if (Physics.Raycast(user.transform.position, userCamera.transform.forward, out hit, allowedDistance)) 
         {
-            Debug.Log("Entered the zone");
+
+            if (hit.collider.gameObject.CompareTag("Video"))
+            {
+                Debug.Log("Looking");
+                looking = true;
+            }
+            else
+            {
+                looking = false;
+            }
+        } 
+
+        if ((Mathf.Abs(Vector3.Distance(objectOne.transform.position, pos)) <= allowedDistance) && looking)
+        {
             vp.Play();
-        }
 
-        if (Mathf.Abs(Vector3.Distance(objectOne.transform.position, pos)) > allowedDistance)
+        }
+        else if(Mathf.Abs(Vector3.Distance(objectOne.transform.position, pos)) > allowedDistance || !looking)
         {
-            Debug.Log("Exited the zone");
             vp.Pause();
         }
     }
-
 }
