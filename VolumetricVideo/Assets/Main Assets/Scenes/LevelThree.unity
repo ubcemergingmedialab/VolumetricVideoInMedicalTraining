@@ -2005,7 +2005,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1028236662}
   m_LocalRotation: {x: -0, y: -0.72276247, z: -0, w: 0.69109654}
-  m_LocalPosition: {x: 77.02114, y: 50.48, z: -130.08528}
+  m_LocalPosition: {x: 72.14, y: 50.48, z: -133.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 117550852}
@@ -3019,6 +3019,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   user: {fileID: 1028236662}
+  userCamera: {fileID: 0}
   allowedDistance: 4
 --- !u!1 &2087845382
 GameObject:
